@@ -18,7 +18,7 @@ namespace kafka_schemaregistry_ssl_netcore
                 GroupId = "netcore-consumer-test-02",
                 BootstrapServers = "localhost:9092",
                 AutoOffsetReset = AutoOffsetReset.Earliest,
-                EnableAutoCommit = false,
+                EnableAutoCommit = fals e,
                 SslCertificateLocation =  "/home/ronaldo.lanhellas/Workspace/tools/kafka/certs/client.crt",
                 SslKeyLocation = "/home/ronaldo.lanhellas/Workspace/tools/kafka/certs/client.key",
                 SslCaLocation = "/home/ronaldo.lanhellas/Workspace/tools/kafka/certs/rootCA.crt",
